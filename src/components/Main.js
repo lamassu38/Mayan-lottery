@@ -31,12 +31,12 @@ export default function Main(){
 
     return (
         <main>
-            <div>
-                <button className='play--button' onClick={getImage}>
+            <div className='button-container'>
+                <button className='lottery--button' onClick={getImage}>
                     Get a card
                 </button>
             </div>
-            <div>
+            <div className='image-container'>
                 {selectedCard && (<img 
                     src={`../images/${selectedCard.card}`}
                     alt={selectedCard.title}
@@ -46,7 +46,7 @@ export default function Main(){
                 {allCardsShown && (
                     <div>
                     <p>No more Cards</p>
-                    <button className='lotterry--buton' onClick={restartGame}>Play again</button>
+                    <button className='lottery--button' onClick={restartGame}>Play again</button>
                     </div>
                 )
                 }

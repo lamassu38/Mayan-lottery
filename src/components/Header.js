@@ -2,9 +2,10 @@ import React from 'react';
 
 export default function Header(){
     return (
-        <header>
+        <header className='header'>
             <img 
             src=''
+            atl='Header logo'
             className='header--image'
             />
             <h2 className='header--title'>Lottery name</h2>
