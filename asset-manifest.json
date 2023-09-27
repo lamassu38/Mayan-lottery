@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mayan-lottery/static/css/main.10c3eeec.css",
+    "main.js": "/mayan-lottery/static/js/main.509ec8bd.js",
+    "index.html": "/mayan-lottery/index.html",
+    "main.10c3eeec.css.map": "/mayan-lottery/static/css/main.10c3eeec.css.map",
+    "main.509ec8bd.js.map": "/mayan-lottery/static/js/main.509ec8bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10c3eeec.css",
+    "static/js/main.509ec8bd.js"
+  ]
+}
